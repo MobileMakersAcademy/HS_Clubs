@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC2DE5791A23BC0E0037556A /* ClubDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE5781A23BC0E0037556A /* ClubDetailViewController.swift */; };
+		EC2DE57B1A23C6C40037556A /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE57A1A23C6C40037556A /* EditProfileViewController.swift */; };
 		EC9A22A61A239C6700A9A57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A22A51A239C6700A9A57A /* AppDelegate.swift */; };
 		EC9A22A81A239C6700A9A57A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A22A71A239C6700A9A57A /* ViewController.swift */; };
 		EC9A22AB1A239C6700A9A57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9A22A91A239C6700A9A57A /* Main.storyboard */; };
 		EC9A22AD1A239C6700A9A57A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9A22AC1A239C6700A9A57A /* Images.xcassets */; };
 		EC9A22B01A239C6700A9A57A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9A22AE1A239C6700A9A57A /* LaunchScreen.xib */; };
 		EC9A22BC1A239C6700A9A57A /* HSClubsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A22BB1A239C6700A9A57A /* HSClubsTests.swift */; };
+		EC9A22C91A239C7E00A9A57A /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22C51A239C7E00A9A57A /* Bolts.framework */; };
+		EC9A22CA1A239C7E00A9A57A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22C61A239C7E00A9A57A /* Parse.framework */; };
+		EC9A22CB1A239C7E00A9A57A /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22C71A239C7E00A9A57A /* ParseFacebookUtils.framework */; };
+		EC9A22CC1A239C7E00A9A57A /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22C81A239C7E00A9A57A /* ParseUI.framework */; };
+		EC9A22CE1A239C9400A9A57A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22CD1A239C9400A9A57A /* AudioToolbox.framework */; };
+		EC9A22D01A239C9C00A9A57A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22CF1A239C9C00A9A57A /* CFNetwork.framework */; };
+		EC9A22D21A239CA500A9A57A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22D11A239CA500A9A57A /* CoreGraphics.framework */; };
+		EC9A22D41A239CAD00A9A57A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22D31A239CAD00A9A57A /* CoreLocation.framework */; };
+		EC9A22D61A239CB500A9A57A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22D51A239CB500A9A57A /* libz.dylib */; };
+		EC9A22D81A239CBD00A9A57A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22D71A239CBD00A9A57A /* MobileCoreServices.framework */; };
+		EC9A22DA1A239CC500A9A57A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22D91A239CC500A9A57A /* QuartzCore.framework */; };
+		EC9A22DC1A239CCE00A9A57A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22DB1A239CCE00A9A57A /* Security.framework */; };
+		EC9A22DE1A239CD500A9A57A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22DD1A239CD500A9A57A /* StoreKit.framework */; };
+		EC9A22E01A239CDD00A9A57A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9A22DF1A239CDD00A9A57A /* SystemConfiguration.framework */; };
+		EC9A22E61A239EED00A9A57A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A22E51A239EED00A9A57A /* LoginViewController.swift */; };
+		EC9A22E81A23A06200A9A57A /* NewClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A22E71A23A06200A9A57A /* NewClubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC2DE5781A23BC0E0037556A /* ClubDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubDetailViewController.swift; sourceTree = "<group>"; };
+		EC2DE57A1A23C6C40037556A /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
 		EC9A22A01A239C6700A9A57A /* HSClubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSClubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9A22A41A239C6700A9A57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC9A22A51A239C6700A9A57A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +56,23 @@
 		EC9A22B51A239C6700A9A57A /* HSClubsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HSClubsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9A22BA1A239C6700A9A57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC9A22BB1A239C6700A9A57A /* HSClubsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSClubsTests.swift; sourceTree = "<group>"; };
+		EC9A22C51A239C7E00A9A57A /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
+		EC9A22C61A239C7E00A9A57A /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
+		EC9A22C71A239C7E00A9A57A /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../Downloads/parse-library-1/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		EC9A22C81A239C7E00A9A57A /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../Downloads/parse-library-1/ParseUI.framework"; sourceTree = "<group>"; };
+		EC9A22CD1A239C9400A9A57A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EC9A22CF1A239C9C00A9A57A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EC9A22D11A239CA500A9A57A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC9A22D31A239CAD00A9A57A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EC9A22D51A239CB500A9A57A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		EC9A22D71A239CBD00A9A57A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EC9A22D91A239CC500A9A57A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC9A22DB1A239CCE00A9A57A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EC9A22DD1A239CD500A9A57A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EC9A22DF1A239CDD00A9A57A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EC9A22E11A239CFC00A9A57A /* HSClubs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HSClubs-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC9A22E51A239EED00A9A57A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EC9A22E71A23A06200A9A57A /* NewClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewClubViewController.swift; path = ../NewClubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +80,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9A22E01A239CDD00A9A57A /* SystemConfiguration.framework in Frameworks */,
+				EC9A22DE1A239CD500A9A57A /* StoreKit.framework in Frameworks */,
+				EC9A22DC1A239CCE00A9A57A /* Security.framework in Frameworks */,
+				EC9A22DA1A239CC500A9A57A /* QuartzCore.framework in Frameworks */,
+				EC9A22D81A239CBD00A9A57A /* MobileCoreServices.framework in Frameworks */,
+				EC9A22D61A239CB500A9A57A /* libz.dylib in Frameworks */,
+				EC9A22D41A239CAD00A9A57A /* CoreLocation.framework in Frameworks */,
+				EC9A22D21A239CA500A9A57A /* CoreGraphics.framework in Frameworks */,
+				EC9A22D01A239C9C00A9A57A /* CFNetwork.framework in Frameworks */,
+				EC9A22CE1A239C9400A9A57A /* AudioToolbox.framework in Frameworks */,
+				EC9A22C91A239C7E00A9A57A /* Bolts.framework in Frameworks */,
+				EC9A22CA1A239C7E00A9A57A /* Parse.framework in Frameworks */,
+				EC9A22CB1A239C7E00A9A57A /* ParseFacebookUtils.framework in Frameworks */,
+				EC9A22CC1A239C7E00A9A57A /* ParseUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +110,24 @@
 		EC9A22971A239C6700A9A57A = {
 			isa = PBXGroup;
 			children = (
+				EC9A22DF1A239CDD00A9A57A /* SystemConfiguration.framework */,
+				EC9A22DD1A239CD500A9A57A /* StoreKit.framework */,
+				EC9A22DB1A239CCE00A9A57A /* Security.framework */,
+				EC9A22D91A239CC500A9A57A /* QuartzCore.framework */,
+				EC9A22D71A239CBD00A9A57A /* MobileCoreServices.framework */,
+				EC9A22D51A239CB500A9A57A /* libz.dylib */,
+				EC9A22D31A239CAD00A9A57A /* CoreLocation.framework */,
+				EC9A22D11A239CA500A9A57A /* CoreGraphics.framework */,
+				EC9A22CF1A239C9C00A9A57A /* CFNetwork.framework */,
+				EC9A22CD1A239C9400A9A57A /* AudioToolbox.framework */,
+				EC9A22C51A239C7E00A9A57A /* Bolts.framework */,
+				EC9A22C61A239C7E00A9A57A /* Parse.framework */,
+				EC9A22C71A239C7E00A9A57A /* ParseFacebookUtils.framework */,
+				EC9A22C81A239C7E00A9A57A /* ParseUI.framework */,
 				EC9A22A21A239C6700A9A57A /* HSClubs */,
 				EC9A22B81A239C6700A9A57A /* HSClubsTests */,
 				EC9A22A11A239C6700A9A57A /* Products */,
+				EC9A22E11A239CFC00A9A57A /* HSClubs-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +145,11 @@
 			children = (
 				EC9A22A51A239C6700A9A57A /* AppDelegate.swift */,
 				EC9A22A71A239C6700A9A57A /* ViewController.swift */,
+				EC2DE57A1A23C6C40037556A /* EditProfileViewController.swift */,
+				EC9A22E71A23A06200A9A57A /* NewClubViewController.swift */,
+				EC9A22E51A239EED00A9A57A /* LoginViewController.swift */,
 				EC9A22A91A239C6700A9A57A /* Main.storyboard */,
+				EC2DE5781A23BC0E0037556A /* ClubDetailViewController.swift */,
 				EC9A22AC1A239C6700A9A57A /* Images.xcassets */,
 				EC9A22AE1A239C6700A9A57A /* LaunchScreen.xib */,
 				EC9A22A31A239C6700A9A57A /* Supporting Files */,
@@ -212,6 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9A22E61A239EED00A9A57A /* LoginViewController.swift in Sources */,
+				EC9A22E81A23A06200A9A57A /* NewClubViewController.swift in Sources */,
+				EC2DE57B1A23C6C40037556A /* EditProfileViewController.swift in Sources */,
+				EC2DE5791A23BC0E0037556A /* ClubDetailViewController.swift in Sources */,
 				EC9A22A81A239C6700A9A57A /* ViewController.swift in Sources */,
 				EC9A22A61A239C6700A9A57A /* AppDelegate.swift in Sources */,
 			);
@@ -338,9 +412,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/flashgordon/Downloads/parse-library-1",
+				);
 				INFOPLIST_FILE = HSClubs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HSClubs-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -348,9 +429,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/flashgordon/Downloads/parse-library-1",
+				);
 				INFOPLIST_FILE = HSClubs/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HSClubs-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -407,6 +494,7 @@
 				EC9A22C11A239C6700A9A57A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC9A22C21A239C6700A9A57A /* Build configuration list for PBXNativeTarget "HSClubsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +503,7 @@
 				EC9A22C41A239C6700A9A57A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
