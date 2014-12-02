@@ -104,4 +104,5 @@ class EditProfileViewController: UIViewController, UIImagePickerControllerDelega
             self.profileImageView.image = info[UIImagePickerControllerEditedImage] as? UIImage
         })
     }
+
 }

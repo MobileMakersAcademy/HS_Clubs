@@ -19,6 +19,7 @@ class LoginViewController: UIViewController
         super.viewDidLoad()
 
     }
+    
     @IBAction func logUserOnTapped(sender: UIButton)
     {
         PFUser.logInWithUsernameInBackground(usernameTextField.text, password: passwordTextField.text) { (returnedUser, returnedError) -> Void in

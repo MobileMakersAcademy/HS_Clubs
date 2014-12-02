@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EC2DE5791A23BC0E0037556A /* ClubDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE5781A23BC0E0037556A /* ClubDetailViewController.swift */; };
 		EC2DE57B1A23C6C40037556A /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DE57A1A23C6C40037556A /* EditProfileViewController.swift */; };
+		EC8572D51A2E08C300740BF1 /* ClubsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8572D41A2E08C300740BF1 /* ClubsViewController.swift */; };
 		EC9A22A61A239C6700A9A57A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A22A51A239C6700A9A57A /* AppDelegate.swift */; };
 		EC9A22A81A239C6700A9A57A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9A22A71A239C6700A9A57A /* ViewController.swift */; };
 		EC9A22AB1A239C6700A9A57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC9A22A91A239C6700A9A57A /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		EC2DE5781A23BC0E0037556A /* ClubDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubDetailViewController.swift; sourceTree = "<group>"; };
 		EC2DE57A1A23C6C40037556A /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		EC8572D41A2E08C300740BF1 /* ClubsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubsViewController.swift; sourceTree = "<group>"; };
 		EC9A22A01A239C6700A9A57A /* HSClubs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HSClubs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9A22A41A239C6700A9A57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC9A22A51A239C6700A9A57A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				EC9A22E51A239EED00A9A57A /* LoginViewController.swift */,
 				EC9A22A91A239C6700A9A57A /* Main.storyboard */,
 				EC2DE5781A23BC0E0037556A /* ClubDetailViewController.swift */,
+				EC8572D41A2E08C300740BF1 /* ClubsViewController.swift */,
 				EC9A22AC1A239C6700A9A57A /* Images.xcassets */,
 				EC9A22AE1A239C6700A9A57A /* LaunchScreen.xib */,
 				EC9A22A31A239C6700A9A57A /* Supporting Files */,
@@ -284,6 +287,7 @@
 			files = (
 				EC9A22E61A239EED00A9A57A /* LoginViewController.swift in Sources */,
 				EC9A22E81A23A06200A9A57A /* NewClubViewController.swift in Sources */,
+				EC8572D51A2E08C300740BF1 /* ClubsViewController.swift in Sources */,
 				EC2DE57B1A23C6C40037556A /* EditProfileViewController.swift in Sources */,
 				EC2DE5791A23BC0E0037556A /* ClubDetailViewController.swift in Sources */,
 				EC9A22A81A239C6700A9A57A /* ViewController.swift in Sources */,

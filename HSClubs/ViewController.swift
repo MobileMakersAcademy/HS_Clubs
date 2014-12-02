@@ -109,10 +109,5 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             clubDetailVC.club = selectedClub
         }
     }
-
-
-
-
-
 }
 
