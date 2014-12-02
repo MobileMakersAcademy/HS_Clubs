@@ -90,7 +90,7 @@
                                     <constraint firstAttribute="width" constant="90" id="z28-kM-NE3"/>
                                 </constraints>
                             </imageView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="bl1-bA-0f7">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="bl1-bA-0f7">
                                 <rect key="frame" x="0.0" y="300" width="600" height="300"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -109,7 +109,7 @@
                                     <outlet property="delegate" destination="yZh-vr-yR7" id="13b-0i-y3H"/>
                                 </connections>
                             </tableView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DMI-2x-8ha">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DMI-2x-8ha">
                                 <rect key="frame" x="203" y="262" width="195" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="195" id="RIk-Vh-G9X"/>
@@ -121,7 +121,7 @@
                                     <outlet property="delegate" destination="yZh-vr-yR7" id="g84-41-a1D"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gi-8Z-AC9">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gi-8Z-AC9">
                                 <rect key="frame" x="406" y="262" width="34" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="34" id="v4g-7z-5dY"/>
@@ -237,9 +237,6 @@
                                 <state key="normal" title="Logout">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="e1I-Ns-8Vt" kind="presentation" id="noH-MA-ga0"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -560,7 +557,4 @@
     <resources>
         <image name="Mobile-Makers-Desktop-2880x1800-2" width="2880" height="1800"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="noH-MA-ga0"/>
-    </inferredMetricsTieBreakers>
 </document>
