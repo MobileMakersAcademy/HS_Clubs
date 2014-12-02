@@ -104,4 +104,9 @@ class EditProfileViewController: UIViewController, UIImagePickerControllerDelega
             self.profileImageView.image = info[UIImagePickerControllerEditedImage] as? UIImage
         })
     }
+
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
+    {
+        PFUser.logOut()
+    }
 }
